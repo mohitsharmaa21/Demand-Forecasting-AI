@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ theme, onToggleTheme }) => {
             <TrendingUp size={20} color="var(--accent-primary)" strokeWidth={2.5} />
           </div>
           <div className="brand-text">
-            <h1 className="brand-title" style={titleStyles}>Demand Forecast AI</h1>
+            <h1 className="brand-title" style={titleStyles}>Demand Forecasting AI</h1>
             <span className="brand-subtitle" style={subtitleStyles}>
               Intelligent multi-day demand predictions
             </span>

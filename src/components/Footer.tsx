@@ -2,9 +2,9 @@ import React from 'react';
 import { ExternalLink, User } from 'lucide-react';
 
 const PORTFOLIO_URL = "https://mohitsharma21.netlify.app/";
-const GITHUB_URL = "https://github.com/mohitsharmaa21";
+const GITHUB_URL = "https://github.com/mohitsharmaa21/Demand-Forecasting-AI";
 const LINKEDIN_URL = "https://www.linkedin.com/in/mohitsharma21";
-const NOTEBOOK_URL = "https://github.com/mohitsharmaa21";
+const NOTEBOOK_URL = "https://www.kaggle.com/code/mohitsharma7231/demand-forecasting-sarimax-model";
 
 export const Footer: React.FC = () => {
   return (

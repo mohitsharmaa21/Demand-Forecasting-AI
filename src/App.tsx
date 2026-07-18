@@ -27,7 +27,7 @@ export const App: React.FC = () => {
     if (savedTheme === 'light' || savedTheme === 'dark') {
       return savedTheme;
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'dark'; // Default to dark mode for first-time visitors
   });
 
   useEffect(() => {
